@@ -15,7 +15,7 @@ public class Tweets {
     //adds tweet
     public Tweets(String userName) {
         this.userName = userName;
-        this.date = String.valueOf(formatter.format(new Date()));
+        this.date = formatter.format(new Date());
         tweetText = addTweet();
     }
 
